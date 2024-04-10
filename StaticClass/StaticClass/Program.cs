@@ -12,5 +12,10 @@
         
         MathOperations.DivideByTwo(number, out double double_result);
         Console.WriteLine($"The double result of dividing {number} by 2 is: {double_result}");
+
+        var adder = new Adder();
+
+        var result = adder.Add(number, 1);
+        Console.WriteLine($"The result of the number + 1 is {result}");
     }
 }
